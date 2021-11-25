@@ -1,0 +1,91 @@
+.conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    height: 1000px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.472), rgba(0, 0, 0, 0.472)), url(https://static.ukrinform.com/photos/2018_10/thumb_files/630_360_1538754074-895.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: rgba(85, 22, 144, 0.589);
+}
+
+.h1 {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name {
+    color: aliceblue;
+    margin: 0 0 0 10px ;
+}
+.knopka1 {
+    width: 50%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.knopka2 {
+    margin: 0 25px 0 0;
+    font-size: 25px;
+    color: rgb(203, 170, 255);
+}
+
+
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.main h1 {
+    text-align: center;
+    margin: 15px 0 10px 0;
+}
+
+
+
+.stick {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 0);
+    margin: 25px 0 0 0;
+}
+.foter {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.562);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div {
+    width: 30%;
+    height: 50px;
+}
+.spice {
+    color: whitesmoke;
+}
+.foter2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nuts {
+    color: whitesmoke;
+}
